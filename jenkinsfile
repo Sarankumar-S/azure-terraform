@@ -1,6 +1,6 @@
 pipeline {
 tools{
-            terraform "default"
+            terraform "terraform-1.5.7-linux"
 }
  
     //environment {
