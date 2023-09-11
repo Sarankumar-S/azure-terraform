@@ -1,6 +1,6 @@
 pipeline {
 Tools{
-            Terraform "terraform-jenkins-1.3.1-linux"
+            Terraform
 }
  
     //environment {
