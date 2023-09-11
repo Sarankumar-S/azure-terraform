@@ -1,6 +1,6 @@
 pipeline {
 tools{
-            terraform "terraform-jenkins-1.5.7-linux"
+            terraform "terraform"
 }
  
     //environment {
