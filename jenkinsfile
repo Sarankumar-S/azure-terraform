@@ -18,6 +18,7 @@ pipeline {
         }
         stage ("terraform init") {
             steps {
+                 echo "entered into tf block"
                 sh 'terraform init'
             }
         }
