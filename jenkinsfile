@@ -3,13 +3,13 @@ tools{
             terraform "terraform"
 }
  
-    //environment {
-      //  AZ_Subscription_ID     = credentials('AZ_Subscription_ID')
-        //AZ_Client_ID           = credentials('AZ_Client_ID')
-        //AZ_Client_Secret       = credentials('AZ_Client_Secret')
-        //AZ_Tenant_ID           = credentials('AZ_Tenant_ID')       
+    environment {
+        AZ_Subscription_ID     = credentials('AZ_Subscription_ID')
+        AZ_Client_ID           = credentials('AZ_Client_ID')
+        AZ_Client_Secret       = credentials('AZ_Client_Secret')
+        AZ_Tenant_ID           = credentials('AZ_Tenant_ID')       
 
-   // }
+   }
 
     agent any
     stages {
